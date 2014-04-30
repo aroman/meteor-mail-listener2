@@ -1,0 +1,1 @@
+MailListener2 = Npm.require('mail-listener2');
