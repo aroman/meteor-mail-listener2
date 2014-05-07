@@ -6,4 +6,5 @@ Npm.depends({ 'mail-listener2': '0.1.1' });
 
 Package.on_use(function (api) {
 	api.add_files('mail_listener2.js', 'server');
+	api.export && api.export(['MailListener2'], 'server');
 });
